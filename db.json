@@ -1,0 +1,19 @@
+{
+  "Mikael": {
+    "username": "Mikael",
+    "balance": 357.5,
+    "avatar": 2,
+    "socketId": "ndCWxpdo21g5YDFjAAAB",
+    "lastRoundBets": {
+      "player": 0,
+      "banker": 0,
+      "tie": 10
+    }
+  },
+  "mika2": {
+    "username": "mika2",
+    "balance": 500,
+    "avatar": 4,
+    "socketId": "ApU2srzDI3XkPgzXAAAF"
+  }
+}
