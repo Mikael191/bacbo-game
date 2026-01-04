@@ -4,7 +4,8 @@ import GameTable from './components/GameTable';
 import PlayerPanel from './components/PlayerPanel';
 import './styles/index.css';
 
-const socket = io('http://localhost:3001');
+// Se estiver rodando no PC, usa localhost:3001. Se estiver na internet, usa o link do site.
+const socket = io(window.location.hostname.includes('localhost') ? 'http://localhost:3001' : window.location.origin);
 
 export default function App() {
   const [user, setUser] = useState(null);
